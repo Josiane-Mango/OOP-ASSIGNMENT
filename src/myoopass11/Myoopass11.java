@@ -58,10 +58,10 @@ public class Myoopass11 {
         mypanel=new JPanel(new GridBagLayout());
         mypanel.setSize(600,400);
      
+        
+        
         username=new JLabel("Username : ");
-        
-        
-        
+        username.setFont(new java.awt.Font("Tahoma", 1, 18));
         txtusername=new JTextField();
         txtusername.setFont(new java.awt.Font("Tahoma", 1, 18));
         txtusername.setColumns(25);
